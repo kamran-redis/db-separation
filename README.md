@@ -17,6 +17,12 @@ diff bundle.yaml original/bundle.yaml
 >               valueFrom:
 >                 fieldRef:
 >                   fieldPath: metadata.namespace
+16581c16581,16583
+<               value: application
+---
+>               valueFrom:
+>                 fieldRef:
+>                   fieldPath: metadata.namespace
 diff role_binding.yaml original/role_binding.yaml
 10d9
 <   namespace: operator
