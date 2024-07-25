@@ -1,0 +1,10 @@
+apiVersion: app.redislabs.com/v1alpha1
+kind: RedisEnterpriseDatabase
+metadata:
+  name: redisdb
+spec:
+  memorySize: 200MB
+  shardCount: 1
+  replication: false
+  defaultUser: true
+

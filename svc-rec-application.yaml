@@ -1,0 +1,11 @@
+# RECOPS
+# service to make sure operator in operator NS does see the REC in application NS
+kind: Service
+apiVersion: v1
+metadata:
+  name: rec
+spec:
+  type: ExternalName
+  externalName: rec.application.svc.cluster.local
+  ports:
+  - port: 9443
