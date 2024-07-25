@@ -9,3 +9,4 @@ kubectl apply -f svc-rec-application.yaml  -n operator
 kubectl apply -f rec.yaml -n application
 
 kubectl apply -f db.yaml -n application
+
